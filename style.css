@@ -1,7 +1,150 @@
 body {
     height: 100vh;
-    margin: 0;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.top-section {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 10px 20px;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 20px; */
+    justify-content: end;
+
+}
+
+.header-menu img {
+    height: 50px;
+}
+
+.hero-banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.hero-banner-section img {
+    height: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.left-banner-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subheader-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 10px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.image-carousel {
+    display: flex;
+    justify-content: center;
+    padding: 46px;
+}
+
+.image-card {
+    text-align: center;
+}
+.image-card img {
+    width: 75%;
+    border-radius: 4px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 24px 100px;
+    margin: auto;
+}
+
+.sign-up-button button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    color: white;
+    background-color: #3882F6;
+    padding: 16px 64px;
+    margin: 60px;
+    border-radius: 4px;
+}
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cta .sign-up-button button {
+    border-color: white;
+    border-style: solid;
+}
+.footer {
+    color: white;
+    font-size: 12px;
 }
